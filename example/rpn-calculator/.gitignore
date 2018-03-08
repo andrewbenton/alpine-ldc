@@ -1,0 +1,14 @@
+.dub
+docs.json
+__dummy.html
+docs/
+rpn-calculator.so
+rpn-calculator.dylib
+rpn-calculator.dll
+rpn-calculator.a
+rpn-calculator.lib
+rpn-calculator-test-*
+*.exe
+*.o
+*.obj
+*.lst

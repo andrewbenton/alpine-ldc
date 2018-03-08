@@ -1,0 +1,11 @@
+{
+    "name": "rpn-calculator",
+    "authors": [
+        "Andrew Benton",
+        "dlang.org"
+    ],
+    "dflags-ldc": [ "-static" ],
+    "description": "A tiny RPN calculator (from dlang.org)",
+    "copyright": "Copyright © 2018, Andrew Benton",
+    "license": "BSL-1.0"
+}

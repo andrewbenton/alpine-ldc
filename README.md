@@ -32,6 +32,10 @@ hello, world!
 /tmp # exit
 ```
 
+## Example
+
+Examples require that you have [docker][docker_install] installed on your machine.  [This][simple_example] is the simplest example.
+
 ## Known issues
 
 - For whatever reason, the interactive `dub init` prompt doesn't quite work.  
@@ -39,3 +43,5 @@ hello, world!
 
 [ldc]: https://github.com/ldc-developers/ldc
 [dub]: https://github.com/dlang/dub
+[docker_install]: https://docs.docker.com/install
+[simple_example]: ./example/rpn-calculator
