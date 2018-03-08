@@ -2,7 +2,7 @@ FROM alpine:3.7
 
 Label maintainer="Andrew Benton <andrew.benton675@gmail.com>"
 
-ARG LDC_VERSION
+ARG LDC_VERSION=1.8.0
 
 RUN \
     apk add --no-cache bash llvm5 musl-dev gcc curl libcurl curl-dev tzdata openssl jq xz git && \
