@@ -26,4 +26,4 @@ RUN \
     apk del bash jq xz && \
     rm -rf /var/cache/apk/*
 
-ENTRYPOINT [ "sh" ]
+ENTRYPOINT [ "/bin/sh" ]
