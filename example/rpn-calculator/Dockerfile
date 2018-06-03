@@ -1,4 +1,4 @@
-FROM andrewbenton/alpine-ldc:v1.8.0 as packager
+FROM andrewbenton/alpine-ldc:v1.9.0 as packager
 
 COPY . /src
 
