@@ -4,7 +4,7 @@ A compilation for D code using LDC running on Alpine Linux.  Perfect for multi-s
 
 ## Building
 
-This is a pretty regular docker build.  The appropriate [LDC][ldc] version and the latest version of [Dub][dub] that the [dub-registry](https://code.dlang.org) knows about will be pulled down during the container build process.
+This is a pretty regular docker build.  The appropriate [LDC][ldc] version and the latest version of [Dub][dub] that the [dub-registry](https://code.dlang.org) knows about will be pulled down during the container build process. You can also pull my latest image from docker hub with `docker pull andrewbenton/alpine-ldc:latest`.
 
 Optionally, a build argument can be supplied to set the version of [LDC][ldc] to pull.  The default is `v1.9.0`.
 
